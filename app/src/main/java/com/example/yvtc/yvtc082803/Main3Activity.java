@@ -143,7 +143,7 @@ public class Main3Activity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 4;
         }
 
         @Override
@@ -155,6 +155,8 @@ public class Main3Activity extends AppCompatActivity {
                     return "SECTION 2";
                 case 2:
                     return "SECTION 3";
+                case 3:
+                    return "第四頁";
             }
             return null;
         }
